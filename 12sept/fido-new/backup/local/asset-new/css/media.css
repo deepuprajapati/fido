@@ -1,0 +1,270 @@
+@media only screen and (max-width:1080px){
+	
+	.tblRspnv_actionbtn{
+		overflow-x: scroll;
+	}	
+} 
+ 
+@media only screen and (max-width:1024px){
+	
+	.main-nav .deskTop_logo {
+		width: 130px;
+	}
+
+	
+}
+
+@media only screen and (max-width:991px){
+
+	
+.headerCntnt_wrapr{
+display: block;
+
+}
+
+.headerCntnt_wrapr .heading_top .page-title{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.pageTgle{
+	background: #565090;
+	text-align: center;
+	padding: 2px 0px 3px 0;
+	color: #ffffff;
+	display: block;
+	cursor: pointer;
+}
+
+.pageTgle i{
+cursor: pointer !important;	
+}
+
+
+
+.headerCntnt_wrapr .links {
+display:none;
+}
+
+.headerCntnt_wrapr .linksMore{
+    margin-top: 0px;
+}
+
+.headerCntnt_wrapr .links a{
+    font-size: 10px;
+    padding: 9px 0 9px 0px;
+    border: none;
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid #ebebeb;
+    margin: 0 !important;
+}
+
+.headerCntnt_wrapr .links a b{
+display:none;
+}
+
+	
+.datatable-header .dt-buttons i.icon-table2{
+    font-size: 13px;	
+}
+
+.fixTlb_hdr_minwidht{
+	min-width:980px
+
+}	
+
+
+
+
+	
+.resCd_dsh_crd{
+background: none;
+    box-shadow: none;
+	
+}	
+
+.cardBlck_cstm{
+	padding:0px !important;
+}
+
+.cardBlck_cstm .resCd_pd0{
+	padding:0px !important;
+}
+
+.resCode_campaignName{
+    margin-top: 35px;
+}
+
+.resCode_dsh_cart{
+	border: 0;
+	padding: 0px !important;
+}
+
+.resCode_dsh_cart:nth-child(even) .cardBx_dashbrd{
+float: right;	
+}
+
+.resCode_dsh_cart .cardBx_dashbrd{
+    width: calc(100% - 10px);
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    background:#fff;
+    padding: 8px;
+}
+
+.resCode_dsh_cart .cardBx_dashbrd_mrg0{
+	margin-bottom:0px;
+}
+
+.resCode_dsh_cart .cardBx_dashbrd > div{
+    padding: 0	
+}
+
+.resCodedashBrd_tbl{
+	display:block;
+}
+
+.resCodeSng_cart{
+    width: 100%;
+    padding-bottom: 15px !important;
+    margin-bottom: 20px;
+}
+	
+.resCode_othrDash{
+	width:50%;
+}	
+
+ /***** Start css for invoiceSection.php *************************************/
+ 
+	.bigLnk_wpr{
+		margin: 9px 0 16px 0;
+	}
+	
+	.bigLnk_wpr .biglnk_ttl_sec h3{
+    font-size: 16px;
+    margin: 0 0 6px 0;
+	}
+	.bigLnk_wpr .biglnk_ttl_sec p{
+	font-size: 12px;
+    margin: 0;
+	}
+	
+	
+ /***** End css for invoiceSection.php *************************************/	
+	
+}
+
+@media only screen and (max-width:799px){
+
+.elemnts_thrdot{
+	display:block !important;
+    top: 65%;
+    left: initial;
+    z-index: 2;	
+}	
+
+.elemnts_thrdot.visible{
+    top: 65%;
+    left: initial;
+    z-index: 2;	
+}
+	
+}
+
+@media only screen and (max-width:768px){
+
+
+.tableSml_dash_style{
+	min-width:500px;
+	
+}/* dashboard table */
+
+ /***** Start css for invoiceSection.php *************************************/
+ 
+	.bigLnk_wpr{
+		margin: 9px 0 16px 0;
+	}
+
+.bigLnk_wpr .biglnk_icn_sec{
+	width:100px;
+}		
+	
+ /***** End css for invoiceSection.php *************************************/	
+
+	
+}
+
+
+@media only screen and (max-width:767px){
+
+
+.main-nav .left-toggle-switch i{
+    top: 0;
+    left: 0;
+}
+	
+}
+
+@media only screen and (max-width:576px){
+
+.headerCntnt_wrapr{
+    padding: 10px 8px 15px 8px;	
+}
+	
+.pageLinsk_top {
+    padding: 0px 8px;
+}	
+.page-content {
+    padding: 0px 8px;
+}	
+		
+	
+.resCode_dsh_cart .cardBx_dashbrd{
+    width: 100%;
+    margin-bottom: 14px;
+}
+
+.resCode_slctFrom_chkbox, .resCode_chsServ{
+	height: initial;
+
+}
+
+.resCode_priceInp{
+    margin-top: 15px;	
+}	
+
+.resCode_othrDash{
+	width:100%;
+}	
+	
+}
+
+@media only screen and (max-width:480px){
+
+.user-dropdown .dropdown-menu:before{
+    margin-left: -2px;
+}	
+	
+.user-dropdown .dropdown-menu:after{
+    margin-left: 0;
+}	
+	
+.main-nav .navbar-left .left-toggle-switch, .main-nav .navbar-left .left-toggle-switch i, .main-nav .deskTop_logo .left-branding>li{
+	height: 50px;
+}	
+	
+.main-nav .deskTop_logo .left-branding>li a img {
+    width: 50px;
+    margin-top: 6px;
+}
+
+.main-nav .left-toggle-switch i {
+top: -5px;
+}
+
+.main-nav .left-toggle-switch i:before{
+	font-size:20px;
+}
+	
+}

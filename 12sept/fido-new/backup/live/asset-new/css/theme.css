@@ -1,0 +1,16 @@
+	@media screen and (min-width: 1024px){
+		.menu-container.screen{
+			display: inherit;
+		}
+		.menu-container.handheld{
+			display: none;
+		}
+	}
+	@media screen and (max-width: 1023px){
+		.menu-container.screen{
+			display: none;
+		}
+		.menu-container.handheld{
+			display: inherit;
+		}
+	}

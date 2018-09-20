@@ -1,0 +1,178 @@
+
+.custom-logo-link img.custom-logo{
+	height:auto;
+}
+
+.footerlogo_style img{
+    width: 170px;
+    margin-bottom: 15px !important;
+}
+
+.marg_b_20{
+	margin-bottom:20px;
+}
+
+.navbar-nav .nav-link:after{
+    transform: translateX(-50%) translateY(-49%) skewX(0deg);
+}
+
+.navbar-nav .rttAngl:before{
+    content: '';
+    background: #232331;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    z-index: 9;
+	display:none;
+}
+
+.navbar-nav .nav-item:hover .rttAngl:before{
+	display:block;
+}
+
+.navbar-nav .dropdown-item:after,  .mega .mega-content:after{
+    transform: skewX(0deg);
+}
+
+.cstmHrztl {
+
+width: 200px;
+}
+
+.navbar-nav .cstmHrztl_item{
+    display: block;
+}
+
+.navbar-nav .dropdown-item a{
+    padding: 15px 20px;
+}
+.megamenu_cstm{
+	min-height:250px;}
+.megahrzl_menu li{
+	float: left;
+    width: 33.33%;
+}
+.megahrzl_menu .feature-list-item + .feature-list-item{
+margin:0;	
+}
+.megahrzl_menu .feature-list-item {
+	margin:14px 0 8px 0 !important;
+	
+}
+
+.mega .mega-content a{
+	font-size:14px;
+}
+
+
+.hmPage_abtus p{
+    margin-bottom: 10px;
+    line-height: 30px;
+    text-align-last: center;
+}
+
+.hmPage_rdmore{
+    text-align: center;
+    display: block;
+    font-size: 16px !important;
+    margin-top: 30px;
+}
+
+.serviceitem_bx{
+    position: relative;
+    transition: all 1s linear;
+    margin-bottom: 50px !important;
+}
+
+.service-icon-grid.style-3a{
+    background-size: cover;
+}
+
+
+.service-img-list .srvcStyle_box{
+    padding-top: 15px;
+    min-height: 116px;
+}
+
+.service-img-list .srvcStyle_box .type{
+    margin-top: -125px;
+}
+
+.service-img-list .type i:after, .about-img-list .type i:after {
+    border-width: 111px 0 0 40px;
+    right: -40px;
+}
+
+.srvcStyle_box{
+	
+}
+
+
+.srvcStyle_box h5{
+    font-size: 16px;
+}
+
+.srvcStyle_box p {
+	font-size: 12px;
+	line-height: 22px;
+}
+
+
+
+.rdMore{
+	position: absolute;
+	background: #0000004a;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.2s linear;
+}
+
+.rdMore a{
+    position: absolute;
+    display: block;
+    color: #fff;
+    width: 100px;
+    font-size: 13px;
+    background: #ca1f26;
+    text-align: center;
+    padding: 6px 0 6px 0;
+    margin: 0px auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+	transition:all 1s linear;
+	
+}
+
+.rdMore a:hover{
+	background: #e81e26;
+}
+
+.serviceitem_bx:hover .rdMore{
+	 visibility: visible;
+	 opacity: 1;
+	
+}
+
+
+.mobilemenu{
+	display:none;
+}
+
+
+@media only screen and (max-width:1200px){
+	
+.mobilemenu{
+	display:block;
+}
+
+	
+}

@@ -1,0 +1,290 @@
+
+h1.entry-title{
+    font-size: 22px !important;	
+}
+
+.mt_30{
+	margin-top: 30px !important;
+}
+
+.custom-logo-link img.custom-logo{
+	height:auto;
+}
+
+.footerlogo_style img{
+    width: 170px;
+    margin-bottom: 15px !important;
+}
+
+.marg_b_20{
+	margin-bottom:20px;
+}
+
+.navbar-nav .nav-link:after{
+    transform: translateX(-50%) translateY(-49%) skewX(0deg);
+}
+
+.navbar-nav .rttAngl:before{
+    content: '';
+    background: #232331;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    z-index: 9;
+	display:none;
+}
+
+.navbar-nav .nav-item:hover .rttAngl:before{
+	display:block;
+}
+
+.navbar-nav .dropdown-item:after,  .mega .mega-content:after{
+    transform: skewX(0deg);
+}
+
+.cstmHrztl {
+
+width: 200px;
+}
+
+.navbar-nav .cstmHrztl_item{
+    display: block;
+}
+
+.navbar-nav .dropdown-item a{
+    padding: 15px 20px;
+}
+.megamenu_cstm{
+	min-height:250px;}
+.megahrzl_menu li{
+	float: left;
+    width: 33.33%;
+}
+.megahrzl_menu .feature-list-item + .feature-list-item{
+margin:0;	
+}
+.megahrzl_menu .feature-list-item {
+	margin:14px 0 8px 0 !important;
+	
+}
+
+.mega .mega-content a{
+	font-size:14px;
+}
+
+
+.hmPage_abtus p{
+    margin-bottom: 10px;
+    line-height: 30px;
+    text-align-last: center;
+}
+
+.hmPage_rdmore{
+    text-align: center;
+    display: block;
+    font-size: 16px !important;
+    margin-top: 30px;
+}
+
+.serviceitem_bx{
+    position: relative;
+    transition: all 1s linear;
+    margin-bottom: 50px !important;
+}
+
+.service-icon-grid.style-3a{
+    background-size: cover;
+}
+
+
+.service-img-list .srvcStyle_box{
+    padding-top: 15px;
+    min-height: 116px;
+}
+
+.service-img-list .srvcStyle_box .type{
+    margin-top: -125px;
+}
+
+.service-img-list .type i:after, .about-img-list .type i:after {
+    border-width: 111px 0 0 40px;
+    right: -40px;
+}
+
+.srvcStyle_box{
+	
+}
+
+
+.srvcStyle_box h5{
+    font-size: 16px;
+}
+
+.srvcStyle_box p {
+	font-size: 12px;
+	line-height: 22px;
+}
+
+
+
+.rdMore{
+	position: absolute;
+	background: #0000004a;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.2s linear;
+}
+
+.rdMore a{
+    position: absolute;
+    display: block;
+    color: #fff;
+    width: 100px;
+    font-size: 13px;
+    background: #ca1f26;
+    text-align: center;
+    padding: 6px 0 6px 0;
+    margin: 0px auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+	transition:all 1s linear;
+	
+}
+
+.rdMore a:hover{
+	background: #e81e26;
+}
+
+.serviceitem_bx:hover .rdMore{
+	 visibility: visible;
+	 opacity: 1;
+	
+}
+
+
+.mobilemenu{
+	display:none;
+}
+
+.service-item-box{
+margin-bottom: 60px !important;
+}
+
+.srvcBox_cntnt {
+    margin-top: 15px;
+    padding-top: 0px !important;
+}
+
+.srvcBox_cntnt h5{
+    font-size: 16px;	
+}
+
+.srvcBox_cntnt p{
+    font-size: 13px;
+    line-height: 20px;	
+}
+
+.service-icon-list .content:before{
+	display:none !important;
+}
+
+.lftbar_sngle_menu{
+	
+}
+.lftbar_sngle_menu .content{
+    padding: 0;
+    border: 0;
+}
+
+.lftbar_sngle_menu .content.active {
+    background: #ca1f26;
+}
+
+.lftbar_sngle_menu .content.active a{
+    color: #fff;
+    border: 1px solid #ca1f26;
+}
+
+.lftbar_sngle_menu .content a{
+    font-size: 13px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #ddd;
+    display: block;
+}
+
+.content_wrpr {
+    margin-bottom: 80px;
+}
+
+.sgnle_cntnt_box {
+    margin-bottom: 40px;
+}
+
+
+.sgnle_cntnt_box h4.sb_head{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: gray;
+    border-bottom: 1px solid gainsboro;
+    display: inline-block;
+    padding-bottom: 6px;
+    margin: 20px 0 12px 0;
+}
+
+
+.sgnle_cntnt_box p {
+    font-size: 13px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+
+
+.uili_style{
+    width: 100%;
+    margin-bottom: 26px;
+}
+
+.uili_style li{
+	    font-size: 13px;
+}
+
+
+.mddlepic_sngl {
+    width: 100%;
+    margin: 20px 0 10px 0;
+}
+
+.mddlepic_sngl img {
+    width: 100%;
+}
+
+.core_vl_sec{
+    margin-bottom: 30px;	
+}
+
+.cr_vle_sngl{
+margin-bottom:50px;	
+}
+
+.cr_vle_sngl .type{
+    margin-bottom: 15px !important;	
+}
+
+@media only screen and (max-width:1200px){
+	
+.mobilemenu{
+	display:block;
+}
+
+	
+}
